@@ -175,11 +175,11 @@ var playerInfo = {
       window.alert("Refilling player's health by 20 for 7 dollars.");
       this.health += 20;
       this.money -= 7;
-  } 
-  else {
-    window.alert("You don't have enough money!");
-  }
-  }, // comma!
+    } 
+    else {
+      window.alert("You don't have enough money!");
+    }
+  },
   upgradeAttack: function() {
     if (this.money >= 7) {
       window.alert("Upgrading player's attack by 6 for 7 dollars.");
@@ -190,7 +190,7 @@ var playerInfo = {
       window.alert("You don't have enough money!");
     }
   }
-
+};
 //can aslso log multiple values at once: console.log(playerInfo.name, playerInfo.attack, playerInfo.health);
 
 var enemyInfo = [
